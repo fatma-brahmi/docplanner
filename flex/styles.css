@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+#logo {
+   width: 268px;
+   height: 32px; 
+   justify-content: space-around;
+   cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    position:relative;
+   border:none 5px white;
+   position: fixed;
+ background-color: white;
+   width: 100%;
+   top: 0%;
+   height: 20px;
+   z-index: 99;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400px;
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    position:relative;
+    padding: 0 10px 0 10px;
+    
+}
+.menu-item{
+    padding: 0 10px;
+}
+.menu-item:hover{
+    color: #00B99B;
+}
+.menu-item-dep li:hover{
+    color: #00B99B;
+    background-color: #d6d0d0;
+ border: none solid 1px ;   
+ padding: 5px 0;
+}
+
+
+  
+
+.menu-item-dep{
+    display:none;
+    width: 200px;
+    height: 220px;
+    margin-left: -50px;
+   padding-left: 10px;
+    position:absolute;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 0px 1px #ddd;
+ 
+   
+}
+.menu-item:hover .menu-item-dep{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color:rgb(116, 116, 116)
+}
+.logo1{
+    text-align: center;
+    padding-top: 100px;
+}
+.first-section p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.3px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.parg{
+    display: flex;
+    width: 1000px;
+    height: 112px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+   
+ }
+ 
+  .flex-container > div {
+    
+   height: 320px;
+    width: 250px;
+    margin: 10px;
+    
+    line-height: 20.8px;
+    font-size: 16px;
+    padding: 32px 32px 0 32px;
+    color:white;
+    border-radius:  12px;
+    top: 200px;
+  }
+.patient{
+     background-color: #1ad1b9; 
+  }
+.doctors{
+background-color: #3d83df;
+}
+.clinics{
+background-color: #1b2734;
+}
+.flex-container p{
+    font-size: 26px;
+    font-family:"Work Sans", Arial, sans-serif;
+  
+}
+.flex-container h2{
+    font-size: 22px;
+    width: 300px;
+    height: 80px;
+    line-height: 28px;
+    font-weight: 300px;
+    font-family:"Work Sans", Arial, sans-serif;
+  
+}
+
+#patient-item{
+    display:none;
+    width: 200px;
+    height: 220px;
+    position:absolute;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 0px 1px #ddd;
+    
+}
+
+
+.choose{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19px;
+  font-weight: 400px;
+  line-height: 24px;
+  padding-top: -50;
+  cursor: pointer;
+}
+.par{
+    display: flex;
+    position: relative;
+   height: 116px;
+   width: 1015px;
+   padding-top: 50px;
+}
+.par p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300px;
+    line-height: 33px;
+    color: rgb(0, 179, 155);
+    text-align: left;
+    padding-left: 255px;
+    width: 300px;
+    height: 100px;
+    margin: 7px 0 9px 0;
+   
+}
+.doctor{
+    display: flex;
+    color: #747474; 
+    height: 20px;
+    width: 400px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+
+
+    cursor: pointer;
+    margin-right: 30px;
+}
+.doctor-item:hover{
+    color:#1ad1b9 ;
+}
+.image{
+    display: flex;
+    color: #747474; 
+    padding-left: 600px;
+  padding-top: 1px;
+    cursor: pointer;
+   margin-left: 30px;
+}
+.doctor img{
+    font-size: 16px;
+    color: #747474;
+}
+div.doctor-item{
+    margin-left: 30px;
+    display: flex;
+    width: 500px;
+}
+.bac{
+    height: 600px;
+    background-color:  #e5faf8;
+    width: 1519px;
+    border: solid 0;
+    background-image:url(https://www.docplanner.com/img/logo.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: 500px;
+    margin-right: 600px;
+    padding: 1.875em 0 .625em; 
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.bac-item1 h2{
+    
+    width: 415px;
+    height: 48px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    padding-left: 250px;
+    padding-bottom: 100px;
+}
+
+.bac-item1 p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44px;
+    color: rgb(0, 179, 155);
+    text-align: left;
+    padding-left: 250px;
+    width: 477px;
+    height: 88px;
+    margin: 7px 0 9px 0;
+    padding-bottom: 20px;
+}
+.bac-item2{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    grid-template-rows:repeat(2,230px) ;
+    gap: 10px;
+    padding-left: 40px;
+    
+    
+}
+.bac-item2 div{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+.bac-item2 div img{
+   
+    font-size: 13px;
+    width: 35px;
+    height: 40px;
+
+}
+.colone1{
+    margin-top: 20px;
+}
+.bac-item2 div h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+
+font-size: 24px;
+
+font-weight: 300;
+
+line-height: 31.2px;
+text-align: center;
+width: 100%;
+padding: 0 15px;
+
+color: rgb(0, 179, 155);
+
+}
+.bac-item2 div p{
+    font:400 13px Roboto, Arial, sans-serif;
+
+
+
+line-height: 16.9px;
+
+color: rgb(116, 116, 116);
+
+}
+
+  
+
+.pargraphe p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.3px;
+    color: rgb(0, 179, 155);
+    text-align: center;
+   
+}
+.pargraphe h2{
+    width: 510px;
+    height: 72px;
+    margin: 13px 0 13px 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    padding-left: 500px;   
+}
+.pays{
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+   
+}
+.gallery {
+    margin: 10px;
+    display: grid;
+grid-row-gap:-10px;
+grid-column-gap: 0px;
+    float: left;
+    width: 300px;
+    height: 209px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border: solide 1px black;
+    padding-bottom: 20px;
+    
+  }
+  
+  div.gallery:hover {
+    border: none white;
+    
+  }
+  
+  div.gallery img {
+    width: 269px;
+    height: 200px;
+  
+  }
+  
+  div.nom {
+    font-family:Roboto, Arial, sans-serif ;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    padding-left: 20px;
+    border: solid white;
+    color: rgb(116, 116, 116);
+    height: 30px;
+    display: flex;
+  }
+ input{
+      font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;  
+      font-weight: 700px;
+      background-color: #1662c6;
+      color: white;
+      width: 103px;
+      height: 29px;
+      border-radius: 5px;
+  }
+  .submit{
+    padding-left: 70px;
+    padding-top: 0px;
+    
+
+    }
+  .graph p{
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.3px;
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .all{
+      text-align: center;
+     
+  }
+  .all input{
+      width: 210px;
+      height: 40px;
+  }
+  footer{
+      clear: both;
+      font-size: 12px;
+      padding-top: 50px;
+      text-align: center;
+      padding-left: 300px;
+      padding-right: 300px;
+      color: rgb(116, 116, 116);
+      
+     margin-top: 30px;
+    
+     
+  }
+  
